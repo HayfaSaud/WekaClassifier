@@ -118,7 +118,7 @@ public static void CV(Instances dataSet) throws Exception{
     public static void test() throws FileNotFoundException, IOException{
        /*
         ArffSaver saver = new ArffSaver(); //create new saver
-        File Newfile = new File("C:\\Users\\hyyof\\OneDrive\\سطح المكتب\\newWeather.arff");
+        File Newfile = new File("C:\\Users\\hyyof\\desktop\\newWeather.arff");
         saver.setInstances(dataSet); //load the data set in a saver
         saver.setFile(Newfile); //set a file into the saver
         saver.writeBatch();  //write instances into the new file
